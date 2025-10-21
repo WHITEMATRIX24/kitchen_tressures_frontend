@@ -1,0 +1,25 @@
+/* Heading font: Montserrat SemiBold hosted online */
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://yourdomain.com/fonts/Roboto_Condensed-SemiBold.ttf') format('truetype');
+  font-weight: 700;
+  font-style: normal;
+}
+
+/* Paragraph font: Roboto Light Italic hosted online */
+@font-face {
+  font-family: 'Roboto';
+  src: url('https://yourdomain.com/fonts/Roboto_Condensed-LightItalic.ttf') format('truetype');
+  font-weight: 400;
+  font-style: normal;
+}
+
+Default usage
+body {
+  font-family: 'Roboto', sans-serif;
+}
+
+h1, h2, h3 {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 700;
+}
